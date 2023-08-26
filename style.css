@@ -83,7 +83,7 @@ body {
 /* Home Section */
 
 .home {
-  background-image: url(img/bg-home.png);
+  background-image: url(img/bghome3.jpg);
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -214,6 +214,10 @@ body {
     margin: 3px;
   }
 
+  .sticky-top {
+    overflow: hidden;
+  }
+
   .mynavbar .nav-link {
     font-size: 2rem;
     text-align: center;
@@ -229,5 +233,9 @@ body {
   .simply-countdown > .simply-section {
     padding: 35px;
     margin: 2px;
+  }
+
+  .home {
+    margin-bottom: 1rem;
   }
 }
